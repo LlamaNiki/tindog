@@ -70,7 +70,6 @@ p {
   position: absolute;
   right: 20%;
 }
-
 /* Features */
 
 #features {
@@ -139,6 +138,8 @@ p {
 margin-top: 55px;
 }
 
+
+
 /* CTA */
 
 #cta {
@@ -156,4 +157,15 @@ margin-top: 55px;
 
 .social-icon {
   margin: 3% 1%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
 }
